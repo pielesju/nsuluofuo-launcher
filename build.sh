@@ -1,3 +1,3 @@
 #!/bin/bash
 
-g++ $( pkg-config --cflags gtk4 ) main.cpp $( pkg-config --libs gtk4 ) -o nsuluofuo
+g++ -Wall -Wextra -pedantic-errors $( pkg-config --cflags gtk4 ) main.cpp $( pkg-config --libs gtk4 ) -o nsuluofuo
